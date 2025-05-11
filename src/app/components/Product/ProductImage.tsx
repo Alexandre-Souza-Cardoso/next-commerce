@@ -4,12 +4,12 @@ import { useState } from "react";
 import Image from "next/image";
 import { ProductType } from "@/types/ProductType";
 
-type ProductimageProps = {
+type ProductImageProps = {
     product: ProductType;
     fill?: boolean;
 };
 
-export default function Productimage({ product, fill }: ProductimageProps) {
+export default function ProductImage({ product, fill }: ProductImageProps) {
     const [loading, setLoading] = useState(true)
     return fill ? (
         <Image

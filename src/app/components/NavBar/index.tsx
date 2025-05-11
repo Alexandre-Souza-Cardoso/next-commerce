@@ -17,14 +17,7 @@ export default function NavBar() {
                             Fazer Login
                         </button>
                     </SignInButton>
-
-
-
-
-
-
                 </SignedOut>
-
             </div>
         </nav >
     )
